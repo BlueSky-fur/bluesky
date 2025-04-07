@@ -38,7 +38,7 @@ class Projects extends React.Component {
         techStack: " ",
         link: "https://github.com/BlueSky-fur",
         open: "https://github.com/BlueSky-fur",
-        image: "/assets/placeholder.jpg"
+        image: "${process.env.PUBLIC_URL}/assets/placeholder.jpg"
       },
       "Tall Tales": {
         title: "Placeholder",
